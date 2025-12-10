@@ -1,9 +1,9 @@
-// AdventureMS Credits
+// AdventureMS Reborn Credits
 
 var status;
 
 // All servers in a single string
-var servers = "Cosmic, HeavenMS, MapleSolaxia, MoopleDEV, BubblesDEV, MetroMS, OdinMS";
+var servers = "Cosmic, HeavenMS, MapleSolaxia, MoopleDEV, BubblesDEV, MetroMS, OdinMS, AdventureMS";
 
 // Major helpers
 var majorHelpers = [
@@ -12,7 +12,8 @@ var majorHelpers = [
     "Chronos",
     "Lily",
     "Davi",
-    "Gwen"
+    "Gwen",
+    "Pepa"
 ];
 
 function start() {
