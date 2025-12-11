@@ -8,9 +8,9 @@ worlds:
     # event_message: ...
     # why_am_i_recommended: A new twist on MapleStory!
     channels: 1
-    exp_rate: 1
-    meso_rate: 1
-    drop_rate: 1
+    exp_rate: 5
+    meso_rate: 5
+    drop_rate: 5
     boss_drop_rate: 1                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
     quest_rate: 1                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
     fishing_rate: 1                        #Multiplier for success likelihood on meso thrown during fishing.
@@ -196,7 +196,7 @@ server:
     LOGIN_ATTEMPT_DURATION: 120         #Period in seconds the login attempt remains registered on the system.
 
     #Ip Configuration
-    HOST: 146.12.89.138                 #WAN IPv4 address
+    HOST: 127.0.0.1                 #WAN IPv4 address
     LANHOST: 127.0.0.1              #LAN IPv4 address
     LOCALHOST: 127.0.0.1            #Loopback IPv4 address
     GMSERVER: false                  #Limits access to server based on valid ips in HandlePacket within LoginPasswordHandler

@@ -45,6 +45,6 @@ public class BeginnerCreator extends CharacterFactory {
     }
 
     public static int createCharacter(Client c, String name, int face, int hair, int skin, int top, int bottom, int shoes, int weapon, int gender) {
-        return createNewCharacter(c, name, face, hair, skin, gender, createRecipe(Job.BEGINNER, 1, 100000203, top, bottom, shoes, weapon));
+        return createNewCharacter(c, name, face, hair, skin, gender, createRecipe(Job.BEGINNER, 1, 130030000, top, bottom, shoes, weapon));
     }
 }
